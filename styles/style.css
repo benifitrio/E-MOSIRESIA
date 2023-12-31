@@ -1402,12 +1402,12 @@
         padding: 15px 0;
         /* background: #f3f5fa; */
         min-height: 40px;
-        margin-top: 72px;
+        margin-top: 80px;
     }
     
     @media (max-width: 992px) {
         .breadcrumbs {
-            margin-top: 68px;
+            margin-top: 80px;
         }
     }
     
