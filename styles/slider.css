@@ -119,4 +119,7 @@
         margin-bottom: 20px;
         padding-bottom: 20px;
     }
+    section {
+        padding: 1em;
+    }
 }
