@@ -40,7 +40,7 @@
     line-height: 1.6em;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 420px) {
     .da-slider {
         width: 100%;
         min-width: initial;
