@@ -1,6 +1,6 @@
 body {
     font-family: "Open Sans", sans-serif;
-    color: #444444;
+    color: #fff;
 }
 
 a {
@@ -422,7 +422,7 @@ section {
 }
 
 .section-bg {
-    background-color: #f3f5fa;
+    background-color: #161835;
 }
 
 .section-title {
@@ -755,7 +755,7 @@ section {
 .services .icon-box {
     box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
     transition: all ease-in-out 0.4s;
-    background: #fff;
+    /* background: #fff; */
 }
 
 .services .icon-box .icon {
@@ -1254,48 +1254,22 @@ section {
 
 .faq .faq-list li {
     padding: 20px;
-    background: #fff;
-    border-radius: 4px;
+    border: 1px solid #fff;
+    border-radius: 5px;
     position: relative;
 }
 
-.faq .faq-list a {
-    position: relative;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    outline: none;
-    cursor: pointer;
+.faq .faq-list li:nth-child(2) {
+    border-color: #41D8B2;
 }
 
-.faq .faq-list .icon-help {
-    font-size: 24px;
-    position: absolute;
-    right: 0;
-    left: 20px;
-    color: #47b2e4;
-}
-
-.faq .faq-list .icon-show,
-.faq .faq-list .icon-close {
-    font-size: 24px;
-    position: absolute;
-    right: 0;
-    top: 0;
+.faq .faq-list li:nth-child(4) {
+    border-color: #fb6c00;
 }
 
 .faq .faq-list p {
     margin-bottom: 0;
     padding: 10px 0 0 0;
-}
-
-.faq .faq-list .icon-show {
-    display: none;
-}
-
-.faq .faq-list a.collapsed {
-    color: #37517e;
-    transition: 0.3s;
 }
 
 .faq .faq-list a.collapsed:hover {
@@ -1594,26 +1568,6 @@ section {
     width: calc(100% - 100px);
 }
 
-#footer .footer-newsletter form input[type=submit] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    border: 0;
-    background: none;
-    font-size: 16px;
-    padding: 0 20px;
-    background: #47b2e4;
-    color: #fff;
-    transition: 0.3s;
-    border-radius: 50px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-#footer .footer-newsletter form input[type=submit]:hover {
-    background: #209dd8;
-}
-
 #footer .footer-top {
     padding: 60px 0 30px 0;
     background: #fff;
@@ -1693,8 +1647,7 @@ section {
     display: inline-block;
     background: #47b2e4;
     color: #fff;
-    line-height: 1;
-    padding: 8px 0;
+    line-height: 2;
     margin-right: 4px;
     border-radius: 50%;
     text-align: center;
