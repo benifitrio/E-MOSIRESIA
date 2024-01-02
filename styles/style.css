@@ -461,6 +461,15 @@
         background-color: #212343;
     }
     
+    .content1 {
+        padding: 0.5em;
+        border: 1px solid #fb6c00;
+        border-bottom: 0;
+        border-radius: 11px;
+        box-shadow: 0 4px rgba(191, 222, 218, .75);
+        background-color: #212343;
+    }
+    
     .section-title h2 {
         font-size: 32px;
         font-weight: bold;
